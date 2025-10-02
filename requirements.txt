@@ -1,0 +1,93 @@
+# ===================================
+# DIABETIC NEPHROPATHY DETECTION APP
+# Complete Requirements File
+# ===================================
+
+# ==================
+# WEB FRAMEWORK & API
+# ==================
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+starlette==0.27.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# ==================
+# AUTHENTICATION & SECURITY
+# ==================
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+cryptography==46.0.2
+bcrypt==5.0.0
+
+# ==================
+# DATABASE
+# ==================
+SQLAlchemy==2.0.23
+# Note: sqlite3 is built into Python, no separate install needed
+
+# ==================
+# DATA SCIENCE & ML
+# ==================
+numpy==2.3.3
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.16.2
+onnxruntime==1.23.0
+onnx==1.19.0
+skl2onnx==1.19.1
+joblib==1.5.2
+
+# ==================
+# DATA VISUALIZATION
+# ==================
+matplotlib==3.10.6
+seaborn==0.13.2
+
+# ==================
+# JUPYTER & NOTEBOOKS
+# ==================
+jupyter==1.1.1
+notebook==7.4.7
+ipykernel==6.30.1
+ipython==9.6.0
+jupyterlab==4.4.9
+
+# ==================
+# DATA PROCESSING
+# ==================
+openpyxl==3.1.5
+beautifulsoup4==4.14.2
+
+# ==================
+# HTTP CLIENT & REQUESTS
+# ==================
+httpx==0.25.2
+requests==2.32.5
+
+# ==================
+# DEVELOPMENT & TESTING
+# ==================
+pytest==7.4.3
+gunicorn==21.2.0
+
+# ==================
+# UTILITIES
+# ==================
+python-dotenv==1.0.0
+coloredlogs==15.0.1
+click==8.3.0
+
+# ==================
+# SYSTEM DEPENDENCIES
+# ==================
+# Windows-specific packages
+pywin32==311; sys_platform == "win32"
+pywinpty==3.0.0; sys_platform == "win32"
+
+# ==================
+# ADDITIONAL SUPPORT
+# ==================
+pillow==11.3.0
+PyYAML==6.0.3
+packaging==25.0

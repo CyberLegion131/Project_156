@@ -1,0 +1,17 @@
+{
+  "name": "dn-detection-app",
+  "version": "1.0.0",
+  "description": "Diabetic Nephropathy Detection - Full Stack Application",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd dn_detection_app/backend && C:/Users/chand/Desktop/FinalProject_KL/dn_detection_env/Scripts/python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "start:frontend": "cd dn_detection_app/frontend && npm start",
+    "install:frontend": "cd dn_detection_app/frontend && npm install",
+    "dev": "npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "DN Detection Team",
+  "license": "MIT"
+}
