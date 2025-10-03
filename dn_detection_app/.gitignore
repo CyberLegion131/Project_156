@@ -263,7 +263,9 @@ datasets/
 *.csv
 *.xlsx
 *.xls
-*.json
+# *.json  # Commented out to allow package.json and other config files
+data/*.json
+datasets/*.json
 *.parquet
 
 # Temporary files
