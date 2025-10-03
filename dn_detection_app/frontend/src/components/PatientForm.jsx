@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
-import { Activity, User, Calendar, Droplets, TestTube, Heart } from 'lucide-react';
+import { Activity, User, Calendar, TestTube, Heart } from 'lucide-react';
 import { predictionAPI } from '../api';
 
 const PatientForm = ({ onPrediction }) => {

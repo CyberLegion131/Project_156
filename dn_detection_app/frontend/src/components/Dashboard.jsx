@@ -3,32 +3,6 @@ import { AlertTriangle, CheckCircle, AlertCircle, TrendingUp, Clock, X } from 'l
 
 const Dashboard = ({ predictionResult, onClearResult }) => {
 
-  const getRiskColor = (level) => {
-    switch (level?.toLowerCase()) {
-      case 'low':
-        return '#48bb78';
-      case 'medium':
-        return '#ed8936';
-      case 'high':
-        return '#f56565';
-      default:
-        return '#718096';
-    }
-  };
-
-  const getRiskIcon = (level) => {
-    switch (level?.toLowerCase()) {
-      case 'low':
-        return <CheckCircle size={24} />;
-      case 'medium':
-        return <AlertCircle size={24} />;
-      case 'high':
-        return <AlertTriangle size={24} />;
-      default:
-        return <TrendingUp size={24} />;
-    }
-  };
-
   const getRiskClass = (level) => {
     switch (level?.toLowerCase()) {
       case 'low':
