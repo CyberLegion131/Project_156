@@ -249,7 +249,7 @@ logs/
 *.log
 
 # Model files (large binary files)
-*.pkl
+# *.pkl
 *.joblib
 *.h5
 *.pb
@@ -327,6 +327,6 @@ docs/build/
 backend/dn_detection.db
 backend/logs/
 frontend/build/
-ml_model/models/*.pkl
-ml_model/models/*.onnx
-ml_model/models/*.joblib
+# ml_model/models/*.pkl
+# ml_model/models/*.onnx
+# ml_model/models/*.joblib

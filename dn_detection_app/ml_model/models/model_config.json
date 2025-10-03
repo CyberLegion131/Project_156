@@ -1,0 +1,39 @@
+{
+  "best_model": {
+    "name": "Extra Trees (Ensemble)",
+    "accuracy": 0.7792207792207793,
+    "accuracy_percentage": "77.92%",
+    "file_path": "extra_trees_ensemble_model.pkl",
+    "model_type": "ensemble",
+    "interpretable": false,
+    "rank": 1
+  },
+  "backup_models": [
+    {
+      "name": "Deep Wide Network (Advanced)",
+      "accuracy": 0.7857142857142857,
+      "accuracy_percentage": "78.57%",
+      "file_path": "deep_wide_network_model.pkl",
+      "model_type": "single",
+      "interpretable": false,
+      "rank": 2
+    },
+    {
+      "name": "Medical Ensemble",
+      "accuracy": 0.7662337662337663,
+      "accuracy_percentage": "76.62%",
+      "file_path": "medical_ensemble_model.pkl",
+      "model_type": "ensemble",
+      "interpretable": false,
+      "rank": 3
+    }
+  ],
+  "metadata": {
+    "total_models_trained": 10,
+    "models_saved": 3,
+    "training_date": "2025-10-02",
+    "dataset_size": 767,
+    "feature_count": 21,
+    "optimization_strategy": "top_3_models_only"
+  }
+}
